@@ -1,5 +1,5 @@
 const debounce = (callback,delay = 500) => {
-  let timeoutId; //idk...
+  let timeoutId; 
   
   return (...args) => {
     //clear previous timeout(if exists) when user enters some more text
