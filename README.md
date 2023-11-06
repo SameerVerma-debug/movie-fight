@@ -5,15 +5,15 @@
 - Autocomplete functionality for the users, so that they don't have to remember the exact name of the movie they are searching for.
 - User will get the results of the two movies compared stat by stat.
 
-# Technologies Used
+## Technologies Used
 1. HTML5
 2. CSS and Bulma For Styling
 3. Javascript
 
-# API Used
+## API Used
 - OMDB API
 
-# Screenshots
+## Screenshots
 ![Alt text](image.png)
 
 
