@@ -81,7 +81,7 @@ const runComparison = () => {
       leftMovieStats[index].classList.remove('is-primary');
       leftMovieStats[index].classList.add('is-warning');
     }
-    else{
+    else if(leftValue > rightValue){
       rightMovieStats[index].classList.remove('is-primary');
       rightMovieStats[index].classList.add('is-warning');
     }
@@ -89,7 +89,7 @@ const runComparison = () => {
 }
 
 const movieTemplate = (movieDetail) => {
-  const boxOfficeCollection = parseInt(movieDetail.BoxOffice.replace(/\$/g,'').replace(/,/g,''));
+  const boxOfficeCollection = parseInt(movieDetail.BoxOffice.replace(/\$/,'').replace(/,/g,''));
   const metaScore = parseInt(movieDetail.Metascore);
   const imdbRating = parseFloat(movieDetail.imdbRating);
   const imdbVotes = parseInt(movieDetail.imdbVotes.replace(/,/g,''));
